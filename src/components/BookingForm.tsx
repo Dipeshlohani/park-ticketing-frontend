@@ -49,14 +49,14 @@ export default function BookingForm({ initialData = {}, onClose }) {
     ...initialData,
   });
 
-  useEffect(() => {
-    if (initialData) {
-      setFormData((prevData) => ({
-        ...prevData,
-        ...initialData,
-      }));
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (initialData) {
+  //     setFormData((prevData) => ({
+  //       ...prevData,
+  //       ...initialData,
+  //     }));
+  //   }
+  // }, []);
 
   const { data: categoriesData, loading: categoriesLoading } = useQuery(GET_CATEGORIES);
   const {
