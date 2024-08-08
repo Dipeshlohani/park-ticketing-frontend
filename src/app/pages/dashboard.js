@@ -93,7 +93,6 @@ export default function Dashboard() {
               aria-label="menu"
               sx={{ mr: 1 }}
               size="large"
-              aria-label="menu"
             >
               {/* <Package2Icon /> */}
             </IconButton>
