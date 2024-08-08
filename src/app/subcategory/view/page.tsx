@@ -187,21 +187,7 @@ export default function SubcategoryListPage() {
         </div>
         <Grid container justifyContent="center" className="bg-indigo-100 dark:bg-indigo-800 px-4 py-3" sx={{ mt: 2 }}>
           <Pagination count={3} color="primary">
-            <PaginationItem>
-              <PaginationPrevious />
-            </PaginationItem>
-            <PaginationItem>
-              <PaginationLink href="#">1</PaginationLink>
-            </PaginationItem>
-            <PaginationItem>
-              <PaginationLink href="#" variant="contained" color="primary">2</PaginationLink>
-            </PaginationItem>
-            <PaginationItem>
-              <PaginationLink href="#">3</PaginationLink>
-            </PaginationItem>
-            <PaginationItem>
-              <PaginationNext />
-            </PaginationItem>
+
           </Pagination>
         </Grid>
       </div>
